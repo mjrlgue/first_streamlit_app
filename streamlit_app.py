@@ -46,7 +46,7 @@ except URLError as e:
 
 
 
-streamlit.stop()
+
 
 streamlit.header("The fruit load contains:")
 
@@ -65,7 +65,7 @@ if streamlit.button('Get fruit load'):
 
 streamlit.header('AAAAAAAAAAAAAAAAA')
 
-
+streamlit.stop()
 
 fruit_add = streamlit.text_input('What fruit would you like to add')
 streamlit.write('Thanks for adding ', fruit_add)
